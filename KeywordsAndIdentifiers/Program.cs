@@ -1,8 +1,11 @@
 ﻿int Age;
 int _Count;
 int num_1;
-int n1um;   // after first character  Underscore,Letter or digit is acceptable.
-//int 1num; // starts with underscore or letter
+int n1um;   
+// after first character  Underscore,Letter or digit is acceptable.
+//int 1num; 
+// starts with underscore or letter.
+// no special characters are allowed.
 
 
 string name;
