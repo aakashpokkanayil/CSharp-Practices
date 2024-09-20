@@ -5,17 +5,20 @@
         static void Main(string[] args)
         {
             Console.WriteLine("What is your name?");  //console is a class & WriteLine is a method.
-            //console.WriteLine("What is your name?"); //compile time error
+            //Console.WriteLine("What is your name?"); //compile time error
             string? name = Console.ReadLine();
             Console.WriteLine($"Hi {name}");
             Console.WriteLine("What is your age?");
             string? age = Console.ReadLine();
-            Console.WriteLine("Age entered is {age}");
+            Console.WriteLine($"Age entered is {age}");
             //Console.WriteLine('HI!'); //compile time error
             Console.WriteLine("Hi,");
             Console.Write("How are you ?");
+            int x = 0;
 
-            // Console.WriteLine(0 / 1); //runtime error
+            Console.WriteLine($"Hi{1/x}"); //runtime error
+
+            
         }
     }
 }
