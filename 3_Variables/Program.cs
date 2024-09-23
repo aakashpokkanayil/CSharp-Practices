@@ -24,5 +24,14 @@
            
         }
     }
+
+    public class sop
+    {
+        public int age;
+        public void displayAge()
+        {
+            Console.WriteLine($"Your Age is {age}");
+        }
+    }
 }
 
